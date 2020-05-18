@@ -11,11 +11,11 @@ use Symfony\Component\Routing\Annotation\Route;
 class DefaultController extends AbstractController
 {
     /**
-     * @Route("/accueil", name="app_index")
+     * @Route("/home", name="app_index")
      */
     public function index() :Response
     {
-        return $this->render('accueil/index.html.twig', [
+        return $this->render('home/index.html.twig', [
             'website' => 'Bienvenue'
         ]);
 
