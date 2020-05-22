@@ -1,0 +1,23 @@
+@import "~bootstrap/scss/bootstrap";
+$title: #37324A;
+$bg-navbar: #5E7475;
+$text-navbar: #7EFC9A;
+
+body {
+    background-color: white;
+}
+.langue{
+    list-style: none;
+}
+.navbar{
+    background-color: $bg-navbar;
+}
+h1{
+    color: $title;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item.show .nav-link{
+    color:$text-navbar;
+}
