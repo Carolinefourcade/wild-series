@@ -1,4 +1,4 @@
-yarn{
+{
     "type": "project",
     "license": "proprietary",
     "require": {
