@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+{% block title %}The differents seasons de {{ program.title }} {% endblock %}
+
+{% block body %}
+    <h1> All seasons of {{ program.title }}</h1>
+
+    <div class="row col-12">
+        {% for season in seasons %}
+            <div class="card-2">
+        <div class="card" style="width:20rem; margin-right: 5rem; margin-left: 5rem;">
+            <img src="{{ program.poster }}" class="card-img-top" alt="poster of serie">
+            <div class="card-body">
+                <h5 class="card-title">Season  {{ season.number }} ( {{ season.year }})</h5>
+            <p class="card-text">{{ season.description}}</p>
+            <a href="/wild/season/{{ season.id }}" class="btn btn-primary">Episod list</a>
+        </div>
+        </div>
+    </div>
+
+        {% endfor %}
+    </div>
+{% endblock %}
