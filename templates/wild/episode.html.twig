@@ -1,18 +1,17 @@
 {% extends 'base.html.twig' %}
-{% block title %}Episode list of {{ program.title }} - Season {{ season.number }}{% endblock %}
+
+{% block title %}{% endblock %}
 
 {% block body %}
-<h1>All episods of {{ program.title }} - Season {{ season.number }}</h1>
-    <div class="row">
-        {% for episode in episodes %}
-    <div class="card" style="width: 25rem; margin-right: 3rem; margin-left: 3rem; margin-top: 2rem">
-        <h4 class="card-title" >Season {{ season.number }} episode {{ episode.number }}</h4>
-        <div class="card-body">
-            <h5 class="card-title">{{ episode.title }}</h5>
-            <p class="card-text">{{ episode.synopsis }}</p>
-           
-        </div>
-    </div>
-        {% endfor %}
-    </div>
+    <h1> {{ program.title }}</h1>
+    <a href="{{ path('wild_show', {slug: program.title|lower|replace({' ': '-'})}) }}">All the info on this serie</a>
+
+    <h2>Season: {{ season.number}} Episode: {{ episode.number }}</h2>
+    <a href="{{ path('wild_episodes', {id: season.id}) }}">All the info on this season</a>
+    <h3>Title of episode: {{ episode.title }}</h3>
+    <p>Synopsis: {{ episode.synopsis }}</p>
+    <br>
+
+
+
 {% endblock %}

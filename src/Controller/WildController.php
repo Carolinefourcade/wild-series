@@ -3,6 +3,7 @@
 namespace App\Controller;
 
 use App\Entity\Category;
+use App\Entity\Episode;
 use App\Entity\Program;
 use App\Entity\Season;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
@@ -102,7 +103,7 @@ class WildController extends AbstractController
     }
 
     /**
-     * @Route("/wild/season/{id}", defaults={"id" = null}, name="wild_episode"))
+     * @Route("/wild/season/{id}", defaults={"id" = null}, name="wild_episodes"))
      * @param int $id
      * @return Response
      */
@@ -118,13 +119,31 @@ class WildController extends AbstractController
             ->findOneBy(['id' => ($id)]);
 
         $program = $season->getProgram();
-        $episode = $season->getEpisodes();
+        $episodes = $season->getEpisodes();
 
-        return $this->render('wild/episode.html.twig', [
+        return $this->render('wild/episodes.html.twig', [
             'season' => $season,
             'program' => $program,
-            'episodes' => $episode
+            'episodes' => $episodes
         ]);
     }
 
+    /**
+     * @Route("/wild/episode/{id}", defaults={"id" = null}, name="wild_episode"))
+     * @param Episode $episode
+     * @return Response
+     */
+
+
+public function showEpisode(Episode $episode): Response
+{
+    $season = $episode->getSeason();
+    $program = $season->getProgram();
+
+    return $this->render('wild/episode.html.twig', [
+        'episode' => $episode,
+        'program' => $program,
+        'season' => $season,
+    ]);
+}
 }
