@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcaf9eba-a108-4248-bfa7-28db0b828416" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/wild/episodes.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/CategoryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/CategoryType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/ProgramSearchType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/wild/add.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/WildController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/WildController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/wild/episode.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/wild/episode.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/wild/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/wild/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,6 +166,8 @@
       <workItem from="1590849955686" duration="2940000" />
       <workItem from="1590947122598" duration="4135000" />
       <workItem from="1591090456336" duration="963000" />
+      <workItem from="1591256227257" duration="7374000" />
+      <workItem from="1591264802193" duration="5095000" />
     </task>
     <servers />
   </component>
@@ -169,17 +175,17 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="927" y="225" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1589806455099">
+    <state x="927" y="225" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1591263425742">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="927" y="225" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/67.27.1533.873@67.27.1533.873" timestamp="1589806455099" />
+    <state x="927" y="225" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/67.27.1533.873@67.27.1533.873" timestamp="1591263425742" />
     <state x="291" y="217" width="424" height="484" key="FileChooserDialogImpl" timestamp="1590758865177">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="291" y="217" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873@67.27.1533.873" timestamp="1590758865177" />
-    <state x="615" y="153" width="655" height="593" key="NewPhpClassDialog" timestamp="1589806305565">
+    <state x="183" y="133" width="655" height="593" key="NewPhpClassDialog" timestamp="1591262428478">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="615" y="153" width="655" height="593" key="NewPhpClassDialog/67.27.1533.873@67.27.1533.873" timestamp="1589806305565" />
+    <state x="183" y="133" width="655" height="593" key="NewPhpClassDialog/67.27.1533.873@67.27.1533.873" timestamp="1591262428478" />
   </component>
 </project>
