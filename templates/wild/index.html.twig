@@ -4,13 +4,8 @@
 {% include 'navbar.html.twig' %}
 {% endblock %}
 {% block body %}
-    {{ form_start(form) }}
-    {{ form_row(form.searchField) }} {{ form_row(form.name) }}
-        <button type="submit" name="btnSearch">Rechercher</button>
-    {{ form_end(form) }}
 
-
-    <h1>Toute les séries de la table program : </h1>
+    <h1>Toutes les séries : </h1>
     {% for program in programs %}
     <div>
         <h2>{{ loop.index }} / {{ program.title }} - Catégorie : {{ program.category.name }}</h2>
