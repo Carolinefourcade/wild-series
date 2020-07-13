@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcaf9eba-a108-4248-bfa7-28db0b828416" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/DataFixtures/ActorFixtures.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataFixtures/EpisodeFixtures.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataFixtures/ProgramFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/wild-series.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wild-series.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/CategoryFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/CategoryFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Program.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Program.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,6 +134,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/webpack-encore-bundle" />
       <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
       <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
     </include_path>
   </component>
   <component name="ProjectId" id="1blIIZmUJe8GxHTFrxUxC4GzEfG" />
@@ -172,7 +179,11 @@
       <workItem from="1591090456336" duration="963000" />
       <workItem from="1591256227257" duration="7374000" />
       <workItem from="1591264802193" duration="5095000" />
-      <workItem from="1593681058768" duration="719000" />
+      <workItem from="1593681058768" duration="8302000" />
+      <workItem from="1594020542183" duration="96000" />
+      <workItem from="1594201923042" duration="14556000" />
+      <workItem from="1594286651498" duration="777000" />
+      <workItem from="1594288375678" duration="10873000" />
     </task>
     <servers />
   </component>
@@ -180,17 +191,21 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="516" y="254" width="624" height="416" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594211788165">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="516" y="254" width="624" height="416" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1533.873@67.27.1533.873" timestamp="1594211788165" />
     <state x="927" y="225" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1591263425742">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="927" y="225" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/67.27.1533.873@67.27.1533.873" timestamp="1591263425742" />
-    <state x="291" y="217" width="424" height="484" key="FileChooserDialogImpl" timestamp="1590758865177">
+    <state x="291" y="217" width="424" height="484" key="FileChooserDialogImpl" timestamp="1594287426751">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="291" y="217" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873@67.27.1533.873" timestamp="1590758865177" />
-    <state x="183" y="133" width="655" height="593" key="NewPhpClassDialog" timestamp="1591262428478">
+    <state x="291" y="217" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873@67.27.1533.873" timestamp="1594287426751" />
+    <state x="183" y="133" width="663" height="593" key="NewPhpClassDialog" timestamp="1594219086486">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="183" y="133" width="655" height="593" key="NewPhpClassDialog/67.27.1533.873@67.27.1533.873" timestamp="1591262428478" />
+    <state x="183" y="133" width="663" height="593" key="NewPhpClassDialog/67.27.1533.873@67.27.1533.873" timestamp="1594219086486" />
   </component>
 </project>
